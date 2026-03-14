@@ -43,14 +43,22 @@ ol, ul {
 }
 ul li {
     list-style-type: none;
+	margin: 5px 15px;
     color: rgb(250, 245, 245);
-    padding: 5px 15px;
-    margin: 5px 15px;
 }
 ul {
     display: flex;
+	flex-direction: column;
 }
+
+li a:hover {
+	background-color:  rgb(48, 47, 47);
+	border-radius: 5px;
+}
+
 a {
+	display: flex;
+	padding: 10px 15px;
     text-decoration: none;
     color: white;
 }
