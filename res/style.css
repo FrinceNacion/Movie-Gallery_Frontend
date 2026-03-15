@@ -1,12 +1,89 @@
-#header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(36, 39, 39);
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&family=Rye&display=swap');
+
+#nav-header {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    border-right: white solid 1px;
 }
 
 #main-title {
+    font-family: 'Rye';
+    font-size: 1.2rem ;
+    font-weight: bold;
     align-self: center;
     margin: 0 15px;
+    padding: 15px 0px;
+}
+
+#main-nav {
+    margin: 10px 10px;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+}
+#category-nav {
+    margin: 0 10px;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+}
+
+#feature-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#popular-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 16%;
+    width: 84%;
+    height: auto;
+}
+
+.section-header-wrapper {
+    display: flex;
+    margin-left: 16%;
+    width: 84%;
+    height: auto;
+}
+
+img.image-sample {
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+}
+
+div.desc {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.section-title {
+    margin: 15px 0px;
+    font-size: 2rem;
+    font-family: 'Rye';
+    text-align: left;
+    color: white;
+}
+
+
+.nav-title {
+    color: rgb(110, 112, 112);
+    font-size: 10px ;
+    margin: 5px 10px;
+    padding: 5px 0;
 }
 
 .section{
